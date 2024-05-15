@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "totorialmod",
+	"version": "${version}",
+	"name": "Totorial Mod",
+	"description": "This is a Tutorial Mod made by Chanathip :>",
+	"authors": [
+		"Chanathip"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/totorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.banana.tutorialmod.TutorialMod"
+		],
+		"client": [
+			"net.banana.tutorialmod.TutorialModClient"
+		],
+		"fabric-datagen": [
+			"net.banana.tutorialmod.TutorialModDataGenerator"
+		]
+	},
+	"mixins": [
+		"totorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
