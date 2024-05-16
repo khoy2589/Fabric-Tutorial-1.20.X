@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "totorialmod",
+	"id": "tutorialmod",
 	"version": "${version}",
-	"name": "Totorial Mod",
+	"name": "Tutorial Mod",
 	"description": "This is a Tutorial Mod made by Chanathip :>",
 	"authors": [
 		"Chanathip"
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/totorialmod/icon.png",
+	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"totorialmod.mixins.json"
+		"tutorialmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
