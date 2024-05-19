@@ -1,5 +1,7 @@
 package net.banana.tutorialmod;
 
+import net.banana.tutorialmod.block.ModBlocks;
+import net.banana.tutorialmod.item.ModItemGroups;
 import net.banana.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
@@ -18,7 +20,10 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 

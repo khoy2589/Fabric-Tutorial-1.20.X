@@ -1,3 +1,8 @@
 {
-  "item.tutorialmod.titanium": "Titanium"
+  "item.tutorialmod.titanium": "Titanium",
+  "item.tutorialmod.raw_titanium": "Raw Titanium",
+
+  "block.tutorialmod.titanium_block": "Block of Titanium",
+
+  "itemgroup.titanium": "Titanium Tutorial Group"
 }

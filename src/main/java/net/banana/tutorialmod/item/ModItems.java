@@ -12,10 +12,13 @@ import net.minecraft.util.Identifier;
 
 
 public class ModItems {
+
     public static final Item TITANIUM = registerItem("titanium", new Item(new FabricItemSettings()));
+    public static final Item RAW_TITANIUM = registerItem("raw_titanium", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(TITANIUM);
+        entries.add(RAW_TITANIUM);
     }
 
     private static Item registerItem(String name, Item item){
