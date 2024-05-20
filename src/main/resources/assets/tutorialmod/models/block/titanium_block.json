@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
-  "texures": {
+  "textures": {
     "all": "tutorialmod:block/titanium_block"
   }
 }
