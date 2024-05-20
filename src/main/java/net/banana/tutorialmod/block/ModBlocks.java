@@ -14,9 +14,9 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block RAW_TITANIUM_BLOCK = registerBlock("raw_titanium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

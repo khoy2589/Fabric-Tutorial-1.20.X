@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(Items.IRON_INGOT);
 
                         entries.add(ModBlocks.TITANIUM_BLOCK);
+                        entries.add(ModBlocks.RAW_TITANIUM_BLOCK);
 
                     }).build());
 
