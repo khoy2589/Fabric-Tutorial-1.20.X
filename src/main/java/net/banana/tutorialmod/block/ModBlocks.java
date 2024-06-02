@@ -16,12 +16,13 @@ public class ModBlocks {
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block RAW_TITANIUM_BLOCK = registerBlock("raw_titanium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, name), block);
     }
+
 
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MOD_ID, name),
