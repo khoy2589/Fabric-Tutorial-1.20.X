@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:titanium"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:titanium_block"
+  }
+}
